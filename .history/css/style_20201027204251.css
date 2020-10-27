@@ -509,8 +509,7 @@ section:nth-of-type(5) .button {
   background: transparent;
   color: #fff;
   border: 2px solid #fff;
-  align-self: center;
-
+  float: right;
   font-size: 12pt;
   margin: 5px 0 0 0;
   outline: 0;

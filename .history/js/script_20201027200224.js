@@ -128,10 +128,8 @@ $('#contact-form').submit(function(e) {
     $('#contact-form')
       .find('input[type=text], input[type=email], textarea')
       .val('');
-    
   });
 });
-
 
 $('#close').click(function() {
   $('#success').removeClass('expand');

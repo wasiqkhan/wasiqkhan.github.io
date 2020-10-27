@@ -480,8 +480,6 @@ section:nth-of-type(5) form {
   margin: 40px auto 0 auto;
   min-width: 95%;
   background-color: #252934;
-  display: flex;
-  flex-direction: column;
 }
 section:nth-of-type(5) .container {
   background-color: #252934;
@@ -508,24 +506,21 @@ section:nth-of-type(5) textarea {
 section:nth-of-type(5) .button {
   background: transparent;
   color: #fff;
-  border: 2px solid #fff;
-  align-self: center;
-
+  float: right;
   font-size: 12pt;
   margin: 5px 0 0 0;
   outline: 0;
-  padding: 8px 30px;
+  padding: 10px 30px;
 }
 section:nth-of-type(5) .button:hover {
-  background: #e31b6d;
+  background: #04c2c9;
 }
 section:nth-of-type(5) #success {
   height: 0;
   overflow: hidden;
   position: relative;
   transition: height 0.25s;
-  width: 50%;
-  margin: auto;
+  width: 100%;
 }
 section:nth-of-type(5) #success.expand {
   height: 36px;
@@ -537,9 +532,6 @@ section:nth-of-type(5) #success div {
   font-size: 10pt;
   font-weight: 600;
   padding: 5px 0;
-}
-.button .mdi {
-  vertical-align: middle;
 }
 section:nth-of-type(5) #close {
   cursor: pointer;

@@ -119,7 +119,7 @@ $('#contact-form').submit(function(e) {
   e.preventDefault();
 
   $.ajax({
-    url: 'https://formspree.io/f/xvovrpkk',
+    url: 'https://formspree.io/mattwilliams85@gmail.com',
     method: 'POST',
     data: { message: $('form').serialize() },
     dataType: 'json'
@@ -128,10 +128,8 @@ $('#contact-form').submit(function(e) {
     $('#contact-form')
       .find('input[type=text], input[type=email], textarea')
       .val('');
-    
   });
 });
-
 
 $('#close').click(function() {
   $('#success').removeClass('expand');

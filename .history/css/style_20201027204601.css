@@ -512,7 +512,7 @@ section:nth-of-type(5) .button {
   align-self: center;
 
   font-size: 12pt;
-  margin: 5px 0 0 0;
+  /* margin: 5px 0 0 0; */
   outline: 0;
   padding: 8px 30px;
 }

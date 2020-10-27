@@ -131,7 +131,9 @@ $('#contact-form').submit(function(e) {
     
   });
 });
-
+setTimeout(function() {
+  $('#success').removeClass('expand')
+}, 10);
 
 $('#close').click(function() {
   $('#success').removeClass('expand');

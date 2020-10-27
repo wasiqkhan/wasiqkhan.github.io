@@ -137,9 +137,15 @@
 section:nth-of-type(5) input[type="text"],
 section:nth-of-type(5) input[type="email"],
 section:nth-of-type(5) textarea {
-  width: 100%;
-}
-section:nth-of-type(5) #success {
-  width: 100%;
+  background: #1e242c;
+  border: 0;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 12pt;
   margin: auto;
+  margin-bottom: 3px;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
 }

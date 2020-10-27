@@ -1,0 +1,136 @@
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .my-img {
+    width: 40%;
+    margin-left: 90px;
+    margin-top: -100px;
+  }
+  .showcase-content h1 {
+    font-size: 15pt;
+  }
+  #contact h6 {
+    font-size: 9pt;
+  }
+
+  .info-p {
+    margin-top: -150px;
+  }
+
+  .hire-me {
+    margin-top: 40px;
+  }
+  .textt {
+    margin-left: 70px;
+  }
+  .textt2 {
+    margin-left: 95px;
+  }
+  .name {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: -30px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .my-img {
+    margin-left: 240px;
+  }
+}
+
+.info-p {
+  margin-top: -100px;
+}
+.hire-me {
+  margin-top: 30px;
+}
+.items {
+  margin: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  /* position: relative; */
+  flex-wrap: wrap;
+}
+
+.items div {
+  flex: 1;
+}
+.portfolio-items h3 {
+  margin-top: 50px;
+}
+
+.portfolio-items img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+#portfolio .portfolio-items .item {
+  display: flex;
+  text-align: left;
+}
+.service-items {
+  display: block;
+  padding: 1rem;
+}
+#service .service-items .item {
+  display: flex;
+  text-align: left;
+}
+.new {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar .l-heading {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+#about .line,
+#service .line,
+#skills .line,
+#contact .line {
+  width: 20%;
+  background: #444649;
+  height: 5px;
+  margin: auto;
+}
+#skills .line,
+#contact .line {
+  background: #fff;
+}
+#projects .line {
+  width: 20%;
+  background: #444649;
+  height: 5px;
+  margin-bottom: 50px;
+  margin-top: -35px;
+}
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+.skill-item h6 {
+  margin-left: 5px;
+
+  /* color: #fff; */
+}
+
+.progress {
+  width: 100%;
+}
+.items p {
+  text-align: justify;
+}

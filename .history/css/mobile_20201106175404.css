@@ -96,13 +96,14 @@
 
 #about .line,
 #service .line,
+#skills .line,
 #contact .line {
   width: 20%;
   background: #444649;
   height: 5px;
   margin: auto;
 }
-
+#skills .line,
 #contact .line {
   background: #fff;
 }

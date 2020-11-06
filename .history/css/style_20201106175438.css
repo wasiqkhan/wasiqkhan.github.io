@@ -394,7 +394,14 @@ a {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
 }
-
+.progress {
+  width: 100%;
+  background: #bdbdbd;
+  height: 20px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+}
 @keyframes an1 {
   from {
     width: 0;

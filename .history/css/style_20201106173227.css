@@ -383,7 +383,24 @@ a {
 .filte img:hover {
   transform: scale(1.1);
 }
-
+#skills {
+  padding: 5rem 0;
+  padding-top: 175px;
+  background: #252934;
+  color: #fff;
+  position: relative;
+}
+#skills svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#skills .line {
+  width: 6%;
+  background: #fff;
+  height: 5px;
+  margin: auto;
+}
 .l {
   height: 15px;
   text-align: center;
@@ -394,7 +411,14 @@ a {
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
 }
-
+.progress {
+  width: 100%;
+  background: #bdbdbd;
+  height: 20px;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+}
 @keyframes an1 {
   from {
     width: 0;
@@ -418,7 +442,47 @@ a {
 .e {
   color: #fff;
 }
+.skill-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 40px;
+}
+.skill-item {
+  padding: 0.75rem;
+}
+.skill-item h6 {
+  margin-right: 140px;
+  color: #fff;
+  text-align: left;
+}
+.skill-group {
+  flex: 1;
+  margin: 50px;
+  flex-direction: column;
+}
+.skill-set {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 400px));
+  padding: 0px;
+  margin: auto;
+  overflow: hidden;
+  list-style: none;
+}
+.skill-set li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+.skill-set li::before {
+  content: "▹";
+  position: absolute;
+  left: 0px;
+  color: #e31b6d;
 
+  font-size: 20px;
+  line-height: 12px;
+}
 #contact {
   padding: 8rem 0;
   padding-top: 175px;

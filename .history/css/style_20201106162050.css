@@ -412,7 +412,7 @@ a {
   animation-timing-function: ease-in-out;
 }
 .progress {
-  width: 100%;
+  /* width: 100%; */
   background: #bdbdbd;
   height: 20px;
   margin: auto;
@@ -450,6 +450,7 @@ a {
 }
 .skill-item {
   padding: 0.75rem;
+  /* flex: 1; */
 }
 .skill-item h6 {
   margin-right: 140px;
@@ -458,28 +459,8 @@ a {
 }
 .skill-group {
   flex: 1;
-  margin: 50px;
+  margin-right: 100px;
   flex-direction: column;
-}
-/* .skill-grou {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
-  padding: 0px;
-  margin: auto;
-  overflow: hidden;
-  list-style: none;
-} */
-/* .skill- li {
-  position: relative;
-  margin-bottom: 10px;
-  padding-left: 20px;
-} */
-.skill-group .skill-item h6::before {
-  content: "▹";
-
-  color: #e31b6d;
-  font-size: 40px;
-  line-height: 12px;
 }
 #contact {
   padding: 8rem 0;
@@ -500,19 +481,19 @@ a {
   height: 5px;
   margin: auto;
 }
-section:nth-of-type(4) form {
+section:nth-of-type(5) form {
   margin: 40px auto 0 auto;
   min-width: 95%;
   background-color: #252934;
   display: flex;
   flex-direction: column;
 }
-section:nth-of-type(4) .container {
+section:nth-of-type(5) .container {
   background-color: #252934;
 }
-section:nth-of-type(4) input[type="text"],
-section:nth-of-type(4) input[type="email"],
-section:nth-of-type(4) textarea {
+section:nth-of-type(5) input[type="text"],
+section:nth-of-type(5) input[type="email"],
+section:nth-of-type(5) textarea {
   background: #1e242c;
   border: 0;
   box-sizing: border-box;
@@ -525,11 +506,11 @@ section:nth-of-type(4) textarea {
   padding: 10px 15px;
   width: 50%;
 }
-section:nth-of-type(4) textarea {
+section:nth-of-type(5) textarea {
   margin-bottom: 5px;
   min-height: 150px;
 }
-section:nth-of-type(4) .button {
+section:nth-of-type(5) .button {
   background: transparent;
   color: #fff;
   border: 2px solid #fff;
@@ -540,10 +521,10 @@ section:nth-of-type(4) .button {
   outline: 0;
   padding: 8px 30px;
 }
-section:nth-of-type(4) .button:hover {
+section:nth-of-type(5) .button:hover {
   background: #e31b6d;
 }
-section:nth-of-type(4) #success {
+section:nth-of-type(5) #success {
   height: 0;
   overflow: hidden;
   position: relative;
@@ -551,10 +532,10 @@ section:nth-of-type(4) #success {
   width: 50%;
   margin: auto;
 }
-section:nth-of-type(4) #success.expand {
+section:nth-of-type(5) #success.expand {
   height: 36px;
 }
-section:nth-of-type(4) #success div {
+section:nth-of-type(5) #success div {
   background: #04c986;
   border: 1px solid #157c59;
   color: #157051;
@@ -565,7 +546,7 @@ section:nth-of-type(4) #success div {
 .button .mdi {
   vertical-align: middle;
 }
-section:nth-of-type(4) #close {
+section:nth-of-type(5) #close {
   cursor: pointer;
   font-size: 12pt;
   font-weight: 600;

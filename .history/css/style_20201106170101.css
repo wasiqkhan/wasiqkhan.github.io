@@ -500,19 +500,19 @@ a {
   height: 5px;
   margin: auto;
 }
-section:nth-of-type(4) form {
+section:nth-of-type(5) form {
   margin: 40px auto 0 auto;
   min-width: 95%;
   background-color: #252934;
   display: flex;
   flex-direction: column;
 }
-section:nth-of-type(4) .container {
+section:nth-of-type(5) .container {
   background-color: #252934;
 }
-section:nth-of-type(4) input[type="text"],
-section:nth-of-type(4) input[type="email"],
-section:nth-of-type(4) textarea {
+section:nth-of-type(5) input[type="text"],
+section:nth-of-type(5) input[type="email"],
+section:nth-of-type(5) textarea {
   background: #1e242c;
   border: 0;
   box-sizing: border-box;
@@ -525,11 +525,11 @@ section:nth-of-type(4) textarea {
   padding: 10px 15px;
   width: 50%;
 }
-section:nth-of-type(4) textarea {
+section:nth-of-type(5) textarea {
   margin-bottom: 5px;
   min-height: 150px;
 }
-section:nth-of-type(4) .button {
+section:nth-of-type(5) .button {
   background: transparent;
   color: #fff;
   border: 2px solid #fff;
@@ -540,10 +540,10 @@ section:nth-of-type(4) .button {
   outline: 0;
   padding: 8px 30px;
 }
-section:nth-of-type(4) .button:hover {
+section:nth-of-type(5) .button:hover {
   background: #e31b6d;
 }
-section:nth-of-type(4) #success {
+section:nth-of-type(5) #success {
   height: 0;
   overflow: hidden;
   position: relative;
@@ -551,10 +551,10 @@ section:nth-of-type(4) #success {
   width: 50%;
   margin: auto;
 }
-section:nth-of-type(4) #success.expand {
+section:nth-of-type(5) #success.expand {
   height: 36px;
 }
-section:nth-of-type(4) #success div {
+section:nth-of-type(5) #success div {
   background: #04c986;
   border: 1px solid #157c59;
   color: #157051;
@@ -565,7 +565,7 @@ section:nth-of-type(4) #success div {
 .button .mdi {
   vertical-align: middle;
 }
-section:nth-of-type(4) #close {
+section:nth-of-type(5) #close {
   cursor: pointer;
   font-size: 12pt;
   font-weight: 600;
